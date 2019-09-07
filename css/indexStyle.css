@@ -11,7 +11,7 @@ h1 {
 }
 
 #par {
-    background-image: url("../imgs/wall.jpg");
+    /*background-image: url("../imgs/wall.jpg");*/
     font-size: 75px;
     color: red;
     padding-top: 25%;
