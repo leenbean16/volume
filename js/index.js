@@ -6,3 +6,4 @@ $("#signin-button").click(function(){
 $("#cancel-btn-two").click(function(){
 	$("#modal-two").hide();
 })
+
