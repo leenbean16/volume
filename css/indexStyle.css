@@ -81,13 +81,15 @@ input {
 
 .modal-card-body {
     -webkit-overflow-scrolling: touch;
-    background-color: #eee;
+    background-color: #ffffff;
+    border: 1px solid darkgray;
     box-shadow: 3px 3px 3px grey;
     height: 310px;
 }
 
 .modal-card-head {
-    background: #F34213;
+    background: #ffffff;
+    border: 1px solid darkgray;
     border-bottom: none;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -138,16 +140,16 @@ input {
 }
 
 #submit-login {
-    background-color: #323232;
+    background-color: yellowgreen;
     border-color: transparent;
     color: #fff;
     width: 250px;
 }
 
 #cancel-btn-two {
-    background-color: #FE938C;
+    background-color: darkgray;
     border-color: transparent;
-    color: #4a4a4a;
+    color: #ffffff;
     text-decoration: none;
     width: 250px;
     margin-top: 15px;
