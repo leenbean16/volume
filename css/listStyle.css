@@ -286,3 +286,7 @@ a.button {
     color: black;
     border-radius: 0px;
 }
+
+.hide {
+    display:none;
+}
