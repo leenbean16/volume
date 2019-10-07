@@ -8,12 +8,14 @@
 }
 
 #subtitle {
+    font-family: 'Be Vietnam', sans-serif;
     text-align: center;
     margin: 15px 15px;
     font-style: italic;
 }
 
 #about-us {
+    font-family: 'Be Vietnam', sans-serif;
     text-align: justify;
     margin: 10px 15px;
 }
@@ -22,6 +24,7 @@
     margin: 15px 15px;
     text-align: center;
     font-weight: bold;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 .quote {
@@ -30,6 +33,7 @@
     background-color: lightgray;
     height: 40px;
     padding-top: 5px;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 .home-page-link {
