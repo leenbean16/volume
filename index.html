@@ -4,110 +4,113 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css">
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.0/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
     <link rel="stylesheet" href="css/indexStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
     <title>VOLUME - Home</title>
 </head>
 
 <body>
     <div>
-        <p id="par">VOLUME</p>
-        <h1>Bringing the hair salon to you</h1>
-        <div class="container" style="padding:25px; font-size: 15px; text-align: justify;">
+        <p id="title">VOLUME</p>
+        <p id="subtitle">Bringing the stylist to you</p>
+        <div id="about-us" class="container">
             <p>Make a great first impression and look your best! VOLUME provides a free and easy to use website for stylists and clients alike. Find the stylists who meet your interests, schedule, and budget. If you are a Stylist looking for new clients, you can list your Bio, credentials and examples of your work to help clients make an informed decision. If you're a client, VOLUME can helo you find the perfect stylist for your needs. Our goal is to take the hassle out of finding a new stylist so you can start enjoying your new look ASAP!</p>
         </div>
-        <br>
-        <br>
-        <h1 class="animated flash infinite" style="color:black; text-align: center;">&#x25BD;</h1>
     </div>
     <div class="parallax">
-        <div id="nav-area" class="columns" style="text-align: center;">
+        <div id="nav-area" class="columns">
             <div class="column">
                 <h2>
-                    <p class="block-quote" style="color: black; font-family:'Contrail One'">WHO IS VOLUME FOR?</p>
+                    <p id="title-two" class="block-quote">WHO IS VOLUME FOR?</p>
                 </h2>
             </div>
-            <div class="column" style="background: red; color: white;">
+            <div class="column quote">
                 <p class="block-quote">STYLIST AT SALON GAINING CLIENTELE THROUGH VOLUME</p>
             </div>
-            <div class="column" style="background: red; color: white;">
+            <div class="column quote">
                 <p class="block-quote">FREELANCE STYLISTS FINDING CLIENTS TO MEET AND STYLE</p>
             </div>
-            <div class="column" style="background: red; color: white;">
+            <div class="column quote">
                 <p class="block-quote">CLIENTS LOOKIGN TO FIND A STYLIST TO COME AND STYLE THEM IN THE COMFORT OF THEIR HOME</p>
             </div>
-            <div class="column hide" style="display:none; float: left; margin: -5px; margin-left: 0px; font-size: 12px;">
-                <a class="hide" style="display:none; color: black;" href="index.html">Home</a>
+            <div class="column home-page-link hide">
+                <a href="index.html">Home</a>
             </div>
-            <div class="column hide" style="display:none; float: left; margin: -5px; font-size: 12px;">
-                <a class="hide" style="display:none; color: black;" href="list.html">Search</a>
+            <div class="column home-page-link hide">
+                <a href="list.html">Search</a>
             </div>
-            <div class="column hide" style="display:none; float: left; margin: -5px; font-size: 12px;">
-                <a class="hide" style="display:none; color: black;" href="clientSignUp.html">Sign Up as a Client</a>
+            <div class="column home-page-link hide">
+                <a href="clientSignUp.html">Sign Up as a Client</a>
             </div>
-            <div class="column hide" style="display:none; float: left; margin: -5px; font-size: 12px;">
-                <a class="hide" style="display:none; color: black;" href="stylistSignUp.html">Sign Up as a Stylist</a>
+            <div class="column home-page-link hide">
+                <a href="stylistSignUp.html">Sign Up as a Stylist</a>
             </div>
-            <div class="column hide" style="display:none; float: left; margin: -5px; font-size: 12px;">
-                <a class="sign-in hide" id="signin-button" style="color: black;">Sign In</a>
+            <div class="column home-page-link">
+                <a class="sign-in" id="signin-button">Sign In</a>
             </div>
         </div>
     </div>
     <div class="parallax">
-    <!--             -->
-    <!-- sign in     -->
-    <!--             -->
-    <div id="modal-two" class="modal hide" margin-top="20px">
-        <div class="modal-background"></div>
-        <div id="sign-in-card" class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title">Sign In</p>
-            </header>
-            <section class="modal-card-body">
-                <div class="field">
-                    <div class="control has-icons-left has-icons-right">
-                        <input id="login-username" class="input" type="text" placeholder="Text input" value="Username">
-                        <span class="icon is-small is-left">
-                            <i class="fa fa-user"></i>
-                        </span>
-                        <span class="icon is-small is-right">
-                            <i class="fa fa-check"></i>
-                        </span>
+        <!--             -->
+        <!-- sign in     -->
+        <!--             -->
+        <div id="modal-two" class="modal hide" margin-top="20px">
+            <div class="container modal-background">
+                <div id="sign-in-card" class="modal-card">
+                    <div class="modal-card-head">
+                        <p class="title">VOLUME</p>
+                        <p class="modal-card-title">Sign In</p>
+                        <p class="modal-card-subtitle">Sign In to your VOLUME account</p>
                     </div>
-                </div>
-                <div class="field">
-                    <p class="control has-icons-left">
-                        <input id="login-password" class="input" type="password" placeholder="Password">
-                        <span class="icon is-small is-left">
-                            <i class="fa fa-lock"></i>
-                        </span>
-                    </p>
-                </div>
-                <div class="field is-grouped">
-                    <div class="control">
-                        <button id="submit-login" class="button is-primary">Submit</button>
+                    <div class="modal-card-body">
+                        <div class="col-xs-12">
+                            <div class="control has-icons-left has-icons-right">
+                                <input id="login-username" class="form-control sign-in-fields input" type="text" placeholder="Username">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fa fa-check"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <p class="control has-icons-left">
+                                <input id="login-password" class="form-control sign-in-fields input" type="password" placeholder="Password">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-lock"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <p class="agree-checkbox control">
+                                <input id="check-box" type="checkbox">
+                                Click here to agree with terms and conditions
+                            </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="control">
+                                <button id="submit-login" class="btn signinbtn btn-primary">Submit</button>
+                            </div>
+                            <div class="control">
+                                <button id="cancel-btn-two" class="btn signinbtn btn-warning">Cancel</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="control">
-                        <button id="cancel-btn-two" class="button is-link">Cancel</button>
-                    </div>
+                    <footer class="modal-card-foot">
+                    </footer>
                 </div>
-            </section>
-            <footer class="modal-card-foot">
-            </footer>
+            </div>
         </div>
-    </div>
-    <!--             -->
-    <!-- sign in end -->
-    <!--             -->
-    <script type="text/javascript" src="js/index.js"></script>
+        <!--             -->
+        <!-- sign in end -->
+        <!--             -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
