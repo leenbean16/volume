@@ -1,3 +1,7 @@
+body {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
 #title {
     text-align: center;
     font-size: 50px;
@@ -96,4 +100,3 @@
 .s-u {
     margin-bottom: 5px;
 }
-
