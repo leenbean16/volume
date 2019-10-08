@@ -17,7 +17,7 @@
         <p id="title">VOLUME</p>
         <p id="subtitle">Bringing the stylist to you</p>
         <div id="about-us" class="container">
-            <p>Make a great first impression and look your best! VOLUME provides a free and easy to use website for stylists and clients alike. Find the stylists who meet your interests, schedule, and budget. If you are a Stylist looking for new clients, you can list your Bio, credentials and examples of your work to help clients make an informed decision. If you're a client, VOLUME can helo you find the perfect stylist for your needs. Our goal is to take the hassle out of finding a new stylist so you can start enjoying your new look ASAP!</p>
+            <p>Make a great first impression and look your best! VOLUME provides a free and easy to use website for stylists and clients alike. Find the stylists who meet your interests, schedule, and budget. If you are a Stylist looking for new clients, you can list your Bio, credentials and examples of your work to help clients make an informed decision. If you're a client, VOLUME can help you find the perfect stylist for your needs. Our goal is to take the hassle out of finding a new stylist so you can start enjoying your new look ASAP!</p>
         </div>
     </div>
     <div class="parallax">
@@ -44,10 +44,12 @@
             <div class="column card quote">
                 <div class="card">
                     <div class="card-body">
-                        <p class="block-quote">CLIENTS LOOKIGN TO FIND A STYLIST TO COME AND STYLE THEM IN THE COMFORT OF THEIR HOME</p>
+                        <p class="block-quote">CLIENTS LOOKING TO FIND A STYLIST TO COME AND STYLE THEM IN THE COMFORT OF THEIR HOME</p>
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
             <div class="column home-page-link hide">
                 <a href="index.html">Home</a>
             </div>
@@ -63,8 +65,12 @@
             <div class="column home-page-link">
                 <a class="sign-in" id="signin-button">Sign In</a>
             </div>
+            <div class="column home-page-link">
+                <a class="sign-up" id="signup-button">Sign Up</a>
+            </div>
         </div>
     </div>
+
     <div class="parallax">
         <!--             -->
         <!-- sign in     -->
@@ -89,20 +95,16 @@
                                 </span>
                             </div>
                         </div>
+                        <br/>
                         <div class="col-xs-12">
                             <p class="control has-icons-left">
-                                <input id="login-password" class="form-control sign-in-fields input" type="password" placeholder="Password">
+                                <input id="login-password" class="form-control sign-in-fields input" type="password" placeholder="Confirm Password">
                                 <span class="icon is-small is-left">
                                     <i class="fa fa-lock"></i>
                                 </span>
                             </p>
                         </div>
-                        <div class="col-xs-12">
-                            <p class="agree-checkbox control">
-                                <input id="check-box" type="checkbox">
-                                Click here to agree with terms and conditions
-                            </p>
-                        </div>
+                        <br/>
                         <div class="col-xs-12">
                             <div class="control">
                                 <button id="submit-login" class="btn signinbtn btn-primary">Submit</button>
@@ -120,6 +122,62 @@
         <!--             -->
         <!-- sign in end -->
         <!--             -->
+        <div id="modal-one" class="modal hide" margin-top="20px">
+            <div class="container modal-background">
+                <div id="sign-up-card" class="modal-card">
+                    <div class="modal-card-head">
+                        <p class="title">VOLUME</p>
+                        <p class="modal-card-title">Sign Up</p>
+                        <p class="modal-card-subtitle">Sign Up for a VOLUME account</p>
+                    </div>
+                    <div class="modal-card-body">
+                        <div class="col-xs-12">
+                            <div class="control has-icons-left has-icons-right">
+                                <input id="signup-email" class="form-control sign-up-fields input" type="email" placeholder="Username">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fa fa-check"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <p class="control has-icons-left">
+                                <input id="signup-password" class="form-control sign-up-fields input" type="password" placeholder="Password">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-lock"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <p class="control has-icons-left">
+                                <input id="signup-password2" class="form-control sign-up-fields input" type="password" placeholder="Password">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-lock"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <p class="agree-checkbox control">
+                                <input id="check-box" type="checkbox">
+                                Click here to agree with terms and conditions
+                            </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="control">
+                                <button id="submit-signup" class="btn signupbtn btn-primary">Sign Up</button>
+                            </div>
+                            <div class="control">
+                                <button id="cancel-btn-two" class="btn signupbtn btn-warning">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="modal-card-foot">
+                    </footer>
+                </div>
+            </div>
+        </div>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

@@ -1,10 +1,10 @@
-$(document).ready(function(){
-	console.log("Ready.");
+$(document).ready(function() {
+    console.log("Ready.");
 })
 
-$(".sign-in").click(function(){
-	$("#modal-two").removeClass('hide');
-	$("#modal-two").modal('show');
+$(".sign-in").click(function() {
+    $("#modal-two").removeClass('hide');
+    $("#modal-two").modal('show');
 })
 
 $('#submit-login').click(function() {
@@ -13,4 +13,9 @@ $('#submit-login').click(function() {
         if (err) throw err;
         console.log("1 record inserted");
     });
+})
+
+$(".sign-up").click(function() {
+    $("#modal-one").removeClass("hide");
+    $("#modal-one").modal("show");
 })

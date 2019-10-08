@@ -30,7 +30,8 @@
 .quote {
     text-align: center;
     margin: 5px 5px;
-    background-color: lightgray;
+    background-color: black;
+    color: white;
     height: 40px;
     padding-top: 5px;
     font-family: 'Be Vietnam', sans-serif;
@@ -57,7 +58,8 @@
     font-size: 13px;
 }
 
-.signinbtn {
+.signinbtn,
+.signupbtn {
     width: 49%;
     margin: 1px;
     margin-top: 5px;
@@ -85,4 +87,8 @@
 
 .hide {
     display: none;
+}
+
+.home-page-link {
+    font-family: 'Be Vietnam', sans-serif;
 }
